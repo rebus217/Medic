@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
-import Test from './blocks/block.test/test';
+import './App.sass';
+import HeaderContacts from "./blocks/headerContats/HeaderContacts";
 
 function App() {
   return (
-    <div className="App">
-      <Test/>
+    <div>
+      <section className='first-section container'>
+          <div className={'first-section__contacts'}>
+              <HeaderContacts/>
+          </div>
+      </section >
     </div>
   );
 }
