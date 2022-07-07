@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Test from './blocks/bloc.test/test';
+import Test from './blocks/block.test/test';
 
 function App() {
   return (

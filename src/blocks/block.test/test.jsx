@@ -3,8 +3,8 @@ import './test.sass'
 
 function Test() {
 
-    function changeColorHandler(e) {
-        console.log(e)
+    function changeColorHandler(e : MouseEvent<HTMLDivElement>) {
+        e.target.classList.toggle('test_blue')
     }
 
   return (
