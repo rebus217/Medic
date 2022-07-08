@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.sass';
-import SocialNetworks from "./blocks/social-networks/Social-networks";
+import SocialNetworks from './blocks/social-networks/Social-networks';
 // @ts-ignore
-import logo from "../src/icons/logo.svg"
-import NavBar from "./blocks/nav-bar/nav-bar";
+import logo from '../src/icons/logo.svg'
+import NavBar from './blocks/nav-bar/nav-bar';
 
 function App() {
   return (
