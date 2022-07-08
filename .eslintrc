@@ -5,7 +5,12 @@
   ],
   "rules": {
     "no-console": "warn",
+    "prefer-const": "warn",
     "quotes": ["error", "single"],
-    "jsx-quotes": ["error", "prefer-double"]
+    "indent": ["warn", 2],
+    "max-len": ["warning", {"code": 120}],
+    "jsx-quotes": ["warning", "prefer-double"],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["warn", "always"]
   }
 }
