@@ -8,8 +8,8 @@
     "prefer-const": "warn",
     "quotes": ["error", "single"],
     "indent": ["warn", 2],
-    "max-len": ["warning", {"code": 120}],
-    "jsx-quotes": ["warning", "prefer-double"],
+    "max-len": ["warn", {"code": 120}],
+    "jsx-quotes": ["warn", "prefer-double"],
     "comma-dangle": ["error", "always-multiline"],
     "semi": ["warn", "always"]
   }
