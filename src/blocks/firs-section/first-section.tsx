@@ -6,22 +6,22 @@ import './first-section.sass';
 
 import logo from '../../icons/logo.svg';
 
-function FirstSection () {
+function FirstSection() {
   return (
     <section className="first-section container">
       <div className={'first-section__contacts'}>
         <div className={'first-section__contacts-container container container_small'}>
-          <SocialNetworks/>
-          <a className={'first-section__e-mail'} href={'#'}>sales@medpro.com</a>
+          <SocialNetworks />
+          <p className={'first-section__e-mail'}>sales@medpro.com</p>
         </div>
       </div>
       <div className={'first-section__header-container container container_small'}>
-        <img className={'first-section__logo'} src={logo} alt={'logo'}/>
+        <img className={'first-section__logo'} src={logo} alt={'logo'} />
         <div className="first-section__nav-bar">
-          <NavBar/>
+          <NavBar />
         </div>
       </div>
-    </section >
+    </section>
   );
 }
 
