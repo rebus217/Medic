@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutUsLeft from './about-us__left-content/about-us__Left';
+import AboutUsLeft from './blocks/about-us__left-content/about-us__Left';
 import './App.sass';
 import CarouselCustom from './blocks/carousel/carousel';
 import ForPhysicians from './blocks/for-physicians/for-physicians';
@@ -33,6 +33,9 @@ function App() {
           <div className="section-header__carousel-text">
             <ForPhysicians/>
           </div>
+          <button className="section-header__carousel-button carousel-button">
+            REACH US
+          </button>
         </div>
       </section>
       <section id="about-us" className="about-us custom-container_small">
