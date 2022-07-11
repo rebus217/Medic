@@ -8,42 +8,50 @@ import NavBar from './blocks/nav-bar/nav-bar';
 import SocialNetworks from './blocks/social-networks/Social-networks';
 
 import logo from './icons/logo.svg';
+import Button from './blocks/button/button';
+import WhyUsRight from './blocks/about-us__right-content/about-us__why-us';
 
 function App() {
   return (
     <div className="custom-container">
-      <section id="header" className="section-header">
+      <section id="home" className="section-header">
         <div className="blue-row ">
           <div className="blue-row__content custom-container_small">
-            <SocialNetworks/>
-            <a className={'section-header__e-mail'} href={'#'}>sales@medpro.com</a>
+            <SocialNetworks />
+            <p className={'section-header__e-mail'}>sales@medpro.com</p>
           </div>
         </div>
-        <div className="section-header__content-conteiner custom-container_small">
-          <img className={'section-header__logo'} src={logo} alt={'logo'}/>
+        <div className="section-header__content-container custom-container_small">
+          <img className={'section-header__logo'} src={logo} alt={'logo'} />
           <div className="section-header__nav-bar-container">
-            <NavBar/>
+            <NavBar />
           </div>
           <div className="section-header__phone">
-            <HeaderPhone/>
+            <HeaderPhone />
           </div>
         </div>
         <div className="section-header__carousel">
-          <CarouselCustom/>
+          <CarouselCustom />
           <div className="section-header__carousel-text">
-            <ForPhysicians/>
+            <ForPhysicians />
           </div>
-          <button className="section-header__carousel-button carousel-button">
-            REACH US
-          </button>
+          <div className="section-header__carousel-button">
+            <Button text={'REACH US'} isBig={true} />
+          </div>
         </div>
       </section>
       <section id="about-us" className="about-us custom-container_small">
         <div className="about-us__left-content">
-          <AboutUsLeft/>
+          <div className="about-us__title">
+            <p className={'title'}>About US</p>
+          </div>
+          <AboutUsLeft />
         </div>
         <div className="about-us-right-content">
-
+          <div className="about-us__title">
+            <p className={'title'}>Why US?</p>
+          </div>
+          <WhyUsRight />
         </div>
       </section>
     </div>

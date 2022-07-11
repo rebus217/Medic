@@ -1,8 +1,16 @@
-import React from 'react'
-import './button.sass'
+import React, { FC } from 'react';
+import './button.sass';
 
-export default function Button() {
-  return (
-    <div>Button</div>
-  )
+interface buttonProps {
+  text: string;
+  isBig?: boolean;
 }
+
+const Button: FC<buttonProps> = ({ text, isBig }) => {
+  let styleName: string = 'button';
+  if (!isBig) styleName += ' button_small';
+
+  return <div className={styleName}>{text}</div>;
+};
+
+export default Button;

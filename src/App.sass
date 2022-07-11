@@ -4,7 +4,7 @@
     max-width: 1665px
     margin: 0 auto
     position: relative
-    font-family: 'Asap'
+    font-family: 'Asap', sans-serif
     font-style: normal
     &_small
         margin: 0 auto
@@ -12,7 +12,7 @@
 
 .section-header
     margin-bottom: 85px
-    &__content-conteiner
+    &__content-container
         width: 100%
         margin: 0 auto
         display: flex
@@ -30,7 +30,6 @@
         max-width: 629px
         width: 100%
         margin-right: 5%
-    &__phone
 
     &__carousel
         position: relative
@@ -39,6 +38,10 @@
         position: absolute
         right: 15%
         top: 23%
+    &__carousel-button
+        position: absolute
+        right: 32%
+        top: 60%
 
 .blue-row
     background-color: $color-blue
@@ -53,5 +56,14 @@
         height: 100%
 
 .about-us
+    display: flex
+    flex-direction: row
     &__left-content
         max-width: 65%
+        margin-right: 48px
+    &__title
+        margin-bottom: 57px
+.title
+    font-weight: 700
+    font-size: 32px
+    line-height: 37px
