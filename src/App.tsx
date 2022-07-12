@@ -10,6 +10,7 @@ import SocialNetworks from './blocks/social-networks/Social-networks';
 import logo from './icons/logo.svg';
 import Button from './blocks/button/button';
 import WhyUsRight from './blocks/about-us__right-content/about-us__why-us';
+import BenefitsButtonGroup from './blocks/benefits__button-group/benefits__button-group';
 
 function App() {
   return (
@@ -52,6 +53,17 @@ function App() {
             <p className={'title'}>Why US?</p>
           </div>
           <WhyUsRight />
+        </div>
+      </section>
+      <section id={'benefits'} className={'benefits'}>
+        <div className={'benefits__left-content'}>
+          <div className={'benefits__background-img'}/>
+          <div className={'benefits__button-group'}>
+            <BenefitsButtonGroup/>
+          </div>
+        </div>
+        <div className={'benefits__right-content'}>
+
         </div>
       </section>
     </div>
