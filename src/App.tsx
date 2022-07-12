@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUsLeft from './blocks/about-us__left-content/about-us__Left';
 import './App.sass';
+import './blocks/title/title.sass';
 import CarouselCustom from './blocks/carousel/carousel';
 import ForPhysicians from './blocks/for-physicians/for-physicians';
 import HeaderPhone from './blocks/header-phone/header-phone';
@@ -11,6 +12,7 @@ import logo from './icons/logo.svg';
 import Button from './blocks/button/button';
 import WhyUsRight from './blocks/about-us__right-content/about-us__why-us';
 import BenefitsButtonGroup from './blocks/benefits__button-group/benefits__button-group';
+import SectionService from './blocks/section-services/section-service';
 
 function App() {
   return (
@@ -80,8 +82,8 @@ function App() {
           </div>
         </div>
       </section>
-      <section id={'services'}>
-
+      <section id={'services'} className={'custom-container_small'}>
+        <SectionService/>
       </section>
     </div>
   );
