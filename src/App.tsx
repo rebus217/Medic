@@ -16,6 +16,8 @@ import SectionService from './blocks/section-services/section-service';
 import SectionTestimonials from './blocks/section-testimonials/section-testimonials';
 import SectionAppointment from './blocks/section-appointment/section-appointment';
 import SectionFAQ from './blocks/section-faq/section-faq';
+import Footer from './blocks/footer/footer';
+import SectionContactUs from './blocks/section-contact-us/section-contact-us';
 
 function App() {
   return (
@@ -62,22 +64,26 @@ function App() {
       </section>
       <section id={'benefits'} className={'benefits'}>
         <div className={'benefits__left-content'}>
-          <div className={'benefits__background-img'}/>
+          <div className={'benefits__background-img'} />
           <div className={'benefits__button-group'}>
-            <BenefitsButtonGroup/>
+            <BenefitsButtonGroup />
           </div>
         </div>
         <div className={'benefits__right-content'}>
           <div className={'benefits__text-container'}>
             <p className={'benefits__title title'}>Benefits</p>
-            <p className={'benefits__selected-item'}>
-              For Physicians and Group Practice
-            </p>
+            <p className={'benefits__selected-item'}>For Physicians and Group Practice</p>
             <p className={'benefits__text'}>
-              • 	90% first pass payment within 30 days, at 3% Billing charges.<br/>
-              • 	Increase of 15-20% in monthly collected revenue.<br/>
-              • 	Expert teams with vast knowledge and experience who will follow up every claim to zero balance.<br/>
-              • 	Services spanning coding review, claims and payment processing, as well as Insurance and patient follow up.<br/>
+              • 90% first pass payment within 30 days, at 3% Billing charges.
+              <br />
+              • Increase of 15-20% in monthly collected revenue.
+              <br />
+              • Expert teams with vast knowledge and experience who will follow up every claim to
+              zero balance.
+              <br />
+              • Services spanning coding review, claims and payment processing, as well as Insurance
+              and patient follow up.
+              <br />
             </p>
           </div>
           <div className={'benefits__right-button'}>
@@ -86,19 +92,24 @@ function App() {
         </div>
       </section>
       <section id={'services'} className={'custom-container_small'}>
-        <SectionService/>
+        <SectionService />
       </section>
       <section id={'testimonials'}>
-        <SectionTestimonials/>
+        <SectionTestimonials />
       </section>
       <section id={'appointment'}>
-        <SectionAppointment/>
+        <SectionAppointment />
       </section>
       <section>
-        <SectionFAQ/>
+        <SectionFAQ />
       </section>
-      <footer>
-
+      <section id={'contact-us'}>
+        <div className={'section-contact-us'}>
+          <SectionContactUs />
+        </div>
+      </section>
+      <footer id={'footer'}>
+        <Footer />
       </footer>
     </div>
   );
