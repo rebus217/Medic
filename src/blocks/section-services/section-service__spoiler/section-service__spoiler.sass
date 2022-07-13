@@ -18,9 +18,20 @@
   &__item-content
     display: flex
     flex-direction: row
-    transition: 2s
+    height: 0
+    overflow: hidden
+    transition: 0.5s
+  &_item-active
+    height: 160px
+    margin-bottom: 42px
 
   &__item-text-container
     max-width: 419px
   &__item-image
     margin-right: 20px
+  &__item-icon
+    width: 18px
+    height: 18px
+    background: url("../../../icons/plus.svg")
+  &_icon-active
+    background: url("../../../icons/minus.svg") no-repeat center
