@@ -13,6 +13,9 @@ import Button from './blocks/button/button';
 import WhyUsRight from './blocks/about-us__right-content/about-us__why-us';
 import BenefitsButtonGroup from './blocks/benefits__button-group/benefits__button-group';
 import SectionService from './blocks/section-services/section-service';
+import SectionTestimonials from './blocks/section-testimonials/section-testimonials';
+import SectionAppointment from './blocks/section-appointment/section-appointment';
+import SectionFAQ from './blocks/section-faq/section-faq';
 
 function App() {
   return (
@@ -85,6 +88,18 @@ function App() {
       <section id={'services'} className={'custom-container_small'}>
         <SectionService/>
       </section>
+      <section id={'testimonials'}>
+        <SectionTestimonials/>
+      </section>
+      <section id={'appointment'}>
+        <SectionAppointment/>
+      </section>
+      <section>
+        <SectionFAQ/>
+      </section>
+      <footer>
+
+      </footer>
     </div>
   );
 }

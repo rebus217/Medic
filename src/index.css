@@ -1,5 +1,6 @@
-@import "css/normalizes.scss";
 @import "css/resets.scss";
+@import "css/normalizes.scss";
+
 
 body {
   margin: 0;
@@ -19,4 +20,7 @@ code {
 
 #root {
   width: 100%;
+}
+p {
+  margin-bottom: 0;
 }
