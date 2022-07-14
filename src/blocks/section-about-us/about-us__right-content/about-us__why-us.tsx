@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-import iconShield from '../../icons/why-us_icon1.svg';
-import iconWorld from '../../icons/why-us_icon2.svg';
-import iconChain from '../../icons/why-us_icon3.svg';
+import iconShield from '../../../icons/why-us_icon1.svg';
+import iconWorld from '../../../icons/why-us_icon2.svg';
+import iconChain from '../../../icons/why-us_icon3.svg';
 import './about-us__why-us.sass';
 
 interface whyUsProps {}

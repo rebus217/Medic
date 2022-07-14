@@ -1,6 +1,6 @@
 import React from 'react';
 import './header-phone.sass';
-import phoneIcon from '../../icons/phone-icon.svg';
+import phoneIcon from '../../../icons/phone-icon.svg';
 
 export default function HeaderPhone() {
   return (

@@ -1,0 +1,92 @@
+@import "../../scss/constants"
+
+.blue-row
+  background-color: $color-blue
+  height: 40px
+
+  &__content
+    margin: 0 auto
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    height: 100%
+
+.section-header
+  margin-bottom: 85px
+
+  &__content-container
+    width: 100%
+    margin: 0 auto
+    display: flex
+    flex-direction: row
+    align-items: center
+    height: 119px
+
+  &__e-mail
+    color: white
+    text-decoration: none
+
+  &__logo
+    width: 75px
+    margin-right: 16%
+
+  &__nav-bar-container
+    max-width: 629px
+    width: 100%
+    margin-right: 5%
+
+  &__carousel
+    position: relative
+
+  &__carousel-additional
+    max-width: 34%
+    position: absolute
+    right: 15%
+    top: 23%
+
+  &__text-container
+    margin-bottom: 63px
+
+  &__carousel-button
+    position: absolute
+    right: 32%
+    top: 60%
+
+  &__title
+    font-size: 28px
+    line-height: 32px
+    margin-bottom: 16px
+
+  &__promise
+    font-size: 84px
+    line-height: 96px
+    font-weight: 700
+    margin-bottom: 16px
+
+  &__text
+    font-size: 32px
+    line-height: 42px
+
+@media (max-width: 1200px)
+  .section-header
+    margin-bottom: 26px
+  .section-header__text-container
+    margin-bottom: 22px
+  .section-header__logo
+    margin-right: 0
+    width: 45px
+  .section-header__promise
+    font-size: 50px
+    line-height: 24px
+  .section-header__title
+    font-size: 20px
+  .section-header__text
+    font-size: 20px
+    line-height: 26px
+
+  ul
+    padding-left: 1rem
+
+@media (max-width: 991px)

@@ -1,4 +1,4 @@
-@import "src/css/constants"
+@import "../../../scss/constants"
 
 .service
   &__item-title-container
@@ -6,32 +6,54 @@
     flex-direction: row
     justify-content: space-between
     margin-bottom: 25px
+
   &__item-title
     color: $color-blue
     font-weight: 700
     font-size: 24px
     line-height: 28px
+
   &__item-line
     width: 100%
     border-bottom: 1px solid black
     margin-bottom: 32px
+
   &__item-content
     display: flex
     flex-direction: row
     height: 0
     overflow: hidden
     transition: 0.5s
+
   &_item-active
     height: 160px
     margin-bottom: 42px
 
   &__item-text-container
     max-width: 419px
+
+  &__item-read-more
+    font-weight: 700
+    font-size: 12px
+    line-height: 29px
+    color: #7D7D7D
+
   &__item-image
     margin-right: 20px
+
   &__item-icon
     width: 18px
     height: 18px
     background: url("../../../icons/plus.svg")
+
   &_icon-active
     background: url("../../../icons/minus.svg") no-repeat center
+
+@media (max-width: 1200px)
+  .service__item-image
+    height: 80px
+    width: 80px
+  .service__item-text
+    font-size: 14px
+  .service__item-read-more
+    font-size: 10px
