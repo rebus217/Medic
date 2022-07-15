@@ -1,1 +1,3 @@
-https://www.figma.com/file/MEKCmlgypP6jUGlObpzLGG/Medical
+Только верстка
+
+Макет: https://www.figma.com/file/MEKCmlgypP6jUGlObpzLGG/Medical
